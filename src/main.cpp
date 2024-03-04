@@ -1,6 +1,6 @@
-#include <engine.h>
-#include <startup.h>
-#include <SDL.h>
+#include <engine.hpp>
+#include <startup.hpp>
+#include <SDL.hpp>
 
 int Main::main(list<string> args) {
     for (string arg : args) {

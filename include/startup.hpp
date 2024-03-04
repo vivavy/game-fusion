@@ -11,7 +11,6 @@ namespace Main {
 };
 
 namespace io {
-    void print(auto = "", std::string = "\n");
     template <typename T>
     T input(std::string = "");
 };

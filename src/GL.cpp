@@ -1,4 +1,4 @@
-#include <GL.h>
+#include <GL.hpp>
 
 void GL::material(std::vector<float> diffamb) {
     float diffambv[] = {diffamb[0], diffamb[1], diffamb[2], diffamb[3]};

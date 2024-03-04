@@ -1,5 +1,5 @@
 #pragma once
-#include <SDL.h>
+#include <SDL.hpp>
 #include <cstdlib>
 #include <vector>
 #include <string>
@@ -7,7 +7,7 @@
 #include <fstream>
 #include <cstdio>
 #include <iostream>
-#include <GL.h>
+#include <GL.hpp>
 #include <cmath>
 
 namespace GF {

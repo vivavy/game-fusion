@@ -1,4 +1,4 @@
-#include <SDL.h>
+#include <SDL.hpp>
 
 u64 SDL::getTicks(void) {
     return SDL_GetTicks64();

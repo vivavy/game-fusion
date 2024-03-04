@@ -1,6 +1,6 @@
 #pragma once
 #include <stdint.h>
-#include <engine/vector.h>
+#include <engine/vector.hpp>
 
 #define list std::vector
 
@@ -47,5 +47,5 @@ namespace GF {
     typedef vec3<i64> ivec3;
 };
 
-#include <engine/window.h>
+#include <engine/window.hpp>
 

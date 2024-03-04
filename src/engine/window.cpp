@@ -1,4 +1,4 @@
-#include <engine/window.h>
+#include <engine/window.hpp>
 #include <SDL.h>
 #include <GL.h>
 

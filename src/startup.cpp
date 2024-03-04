@@ -1,7 +1,7 @@
-#include <startup.h>
+#include <startup.hpp>
 
 int main(int _argc, char **argv) {
-    vector<string> args;
+    std::vector<std::string> args;
 
     for (int i; argv[i]; i++) {
         args.push_back(argv[i]);
@@ -11,9 +11,6 @@ int main(int _argc, char **argv) {
 };
 
 namespace io {
-    void print(auto data = "", string end = "\n") {
-        std::cout << data << end;
-    };
 
     template <typename T>
     T input(string prompt = "") {

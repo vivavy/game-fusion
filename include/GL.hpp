@@ -1,6 +1,7 @@
 #pragma once
 #include <GL/gl.h>
-#include <engine.h>
+#include <GL/glu.h>
+#include <engine.hpp>
 
 
 namespace GL {
